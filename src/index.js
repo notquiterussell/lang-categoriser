@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-var nlp = require('wink-nlp-utils');
+const nlp = require('wink-nlp-utils');
 const stem = require('wink-porter2-stemmer');
 
 let categoryDictionary = {};
