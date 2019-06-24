@@ -13,9 +13,11 @@ npm install lang-categoriser
 ## Useage
 
 ```javascript
+const { category } = require('lang-categoriser')();
+
 (async () => {
   try {
-    var text = await category('I love cats but I am allergic to then.');
+    const text = await category('I love cats but I am allergic to then.');
     console.log(JSON.stringify(text, null, 2));
   } catch (e) {}
 })();
