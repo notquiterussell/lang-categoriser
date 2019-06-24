@@ -35,7 +35,6 @@ Result:
   },
   "tokens": {
     "positive": {
-      "i": null,
       "love": [
         "joy",
         "positive",
@@ -44,8 +43,6 @@ Result:
         "surprise",
         "trust"
       ],
-      "cats": null,
-      "allergic": null
     },
     "negative": {}
   }
