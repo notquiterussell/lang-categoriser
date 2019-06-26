@@ -2,7 +2,7 @@
 
 ## Introduction
 
-A simple text categoriser which uses the NFC emotion categories to perform sentiment analysis of arbitrary text.
+A simple text categoriser which uses the NRC emotion categories to perform sentiment analysis of arbitrary text.
 
 ## Installation
 
@@ -17,7 +17,7 @@ const { category } = require('lang-categoriser')();
 
 (async () => {
   try {
-    const text = await category('I love cats but I am allergic to then.');
+    const text = await category('I love cats but I am allergic to them.');
     console.log(JSON.stringify(text, null, 2));
   } catch (e) {}
 })();

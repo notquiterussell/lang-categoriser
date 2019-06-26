@@ -60,9 +60,9 @@ describe('Categoriser tests', () => {
     });
   });
 
-  it('I love cats but I am allergic to then.', async () => {
+  it('I love cats but I am allergic to them.', async () => {
     const categoriser = require('../src/index.js')(__dirname + '/sample.json');
-    expect(await category('I love cats but I am allergic to then.')).toEqual({
+    expect(await category('I love cats but I am allergic to them.')).toEqual({
       scores: {
         joy: 0.2,
         positive: 0.2,
