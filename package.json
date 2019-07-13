@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "repository": "https://github.com/russellgeraghty/lang-categoriser.git",
   "author": "Russell Geraghty <russell@rosesareblue.co.uk>",
-  "license": "Apache 2",
+  "licence": "Apache-2.0",
   "private": false,
   "dependencies": {
     "csv-parser": "^2.3.0",
