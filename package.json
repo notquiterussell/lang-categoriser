@@ -1,6 +1,6 @@
 {
   "name": "lang-categoriser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Language categoriser",
   "main": "src/index.js",
   "repository": "https://github.com/russellgeraghty/lang-categoriser.git",
