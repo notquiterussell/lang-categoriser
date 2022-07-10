@@ -1,6 +1,6 @@
 {
   "name": "lang-categoriser",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Language categoriser",
   "main": "src/index.js",
   "repository": "https://github.com/russellgeraghty/lang-categoriser.git",
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "csv-parser": "^2.3.0",
-    "wink-nlp-utils": "^2.0.5",
+    "wink-nlp-utils": "^2.0.7",
     "wink-porter2-stemmer": "^2.0.0"
   },
   "devDependencies": {
