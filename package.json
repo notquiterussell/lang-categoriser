@@ -7,13 +7,16 @@
   "author": "Russell Geraghty <russell@rosesareblue.co.uk>",
   "licence": "Apache-2.0",
   "private": false,
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "csv-parser": "^2.3.0",
     "wink-nlp-utils": "^2.0.5",
     "wink-porter2-stemmer": "^2.0.0"
   },
   "devDependencies": {
-    "jest": "^24.8.0",
+    "jest": "^28.1.2",
     "jest-expect-message": "^1.0.2"
   }
 }
